@@ -39,7 +39,7 @@ function devolverString(str) {
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    var dividir = x * y;
+    var dividir = x / y;
       return dividir;
   }
   divide(1, 2);
@@ -48,44 +48,62 @@ function devolverString(str) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
-     if (x = y) {
+     if (x === y) {
       return true;
-    } else {
+    } 
+    else {
         return false;
-    }
-    sonIguales
+    }}
+    sonIguales(5, 5);
   
   function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (str1=str2) true
-    else false
-  }
+    if (str1.length === str2.length) {
+      return true;
+    } 
+    else {
+        return false;
+    }}
+    tienenMismaLongitud(2, 2);
   
   function menosQueNoventa(num) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
-  }
+    if (num <90) {
+      return true;
+    } 
+    else {
+        return false;
+    }}
+  menosQueNoventa(80);
   
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
-  }
+    if (num >50) {
+      return true;
+    } 
+    else {
+        return false;
+    }}
+    mayorQueCincuenta(80);
   
   function obtenerResto(x, y) {
-    // Obten el resto de la división de "x" entre "y"
-    // Tu código:
+    var resto = x % y;
+      return resto;
   }
+  obtenerResto(21, 5);
   
   function esPar(num) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
-    // Tu código:
-  }
-  
+    // Tu código:{
+    }
+
   function esImpar(num) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
