@@ -131,12 +131,16 @@ elevarAlCuadrado(2);
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  return Math.pow(num, 3)  
 }
+elevarAlCuadrado(2);
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  return num ** exponent
 }
+elevar(2, 4);
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
